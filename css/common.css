@@ -1,0 +1,83 @@
+*{
+	font-family: "微软雅黑";
+	margin: 0;
+	padding: 0;
+}
+.center_width{
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+p{
+	margin-bottom: 0;
+}
+a{
+	text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+html{font-size: 625%;}
+
+.container{
+	width: 12rem;
+	padding: 0;
+	margin: 0 auto;
+}
+/*最小宽*/
+.min{
+	min-width: 12rem;
+}
+.pc{
+	display: block;
+}
+.mobile{
+	display: none;
+}
+
+
+
+@media(max-width: 1900px){
+	html{font-size: 600%;}
+	/*.header .container{
+		width: 12rem;
+	}*/
+}
+@media(max-width: 1540px){
+	html{font-size: 520%;}
+}
+@media(max-width: 1280px){
+	html{font-size: 500%;}
+}
+@media(max-width: 1080px){
+	html{font-size: 480%;}
+}
+@media(max-width: 1079px) and (min-width: 993px){
+	
+}
+@media(max-width: 992px){
+	html{font-size: 380%;}
+}
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}
+@media (max-width: 460px){
+	html{font-size: 350%;}
+}
+@media (max-width: 350px){
+	html{font-size: 320%;}
+}
